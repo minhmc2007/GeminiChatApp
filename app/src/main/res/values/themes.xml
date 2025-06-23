@@ -1,0 +1,5 @@
+<resources>
+    <style name="Base.Theme.GeminiChat" parent="Theme.Material3.DayNight.NoActionBar">
+    </style>
+    <style name="Theme.GeminiChat" parent="Base.Theme.GeminiChat" />
+</resources>

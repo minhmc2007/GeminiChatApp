@@ -1,0 +1,13 @@
+# Secrets
+secrets.properties
+local.properties
+
+# Android Studio
+.idea/
+.gradle/
+build/
+*.iml
+captures/
+.cxx/
+*.apk
+*.aab
