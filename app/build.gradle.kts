@@ -3,11 +3,9 @@ plugins {
     id("org.jetbrains.kotlin.android")
     id("com.google.android.libraries.mapsplatform.secrets-gradle-plugin")
 }
-
 android {
     namespace = "com.example.geminichat"
     compileSdk = 34
-
     defaultConfig {
         applicationId = "com.example.geminichat"
         minSdk = 21
@@ -16,7 +14,6 @@ android {
         versionName = "1.0"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
-
     buildTypes {
         release {
             isMinifyEnabled = false
@@ -37,7 +34,6 @@ android {
         viewBinding = true
     }
 }
-
 dependencies {
     implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
